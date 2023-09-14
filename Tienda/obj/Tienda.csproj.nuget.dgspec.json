@@ -4,6 +4,62 @@
     "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Tienda\\Tienda.csproj": {}
   },
   "projects": {
+    "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\AccesoDatos\\AccesoDatos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\AccesoDatos\\AccesoDatos.csproj",
+        "projectName": "AccesoDatos",
+        "projectPath": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\AccesoDatos\\AccesoDatos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Entidades\\Entidades.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Entidades\\Entidades.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Logica\\Logica.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Logica\\Logica.csproj",
+        "projectName": "Logica",
+        "projectPath": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Logica\\Logica.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\AccesoDatos\\AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\AccesoDatos\\AccesoDatos.csproj"
+              },
+              "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Tienda\\Tienda.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +83,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Logica\\Logica.csproj": {
+                "projectPath": "C:\\Users\\eduar\\Desktop\\ProyectoTienda\\Logica\\Logica.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
